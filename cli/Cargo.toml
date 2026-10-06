@@ -1,0 +1,11 @@
+[package]
+name = "leleka"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+repository.workspace = true
+license.workspace = true
+readme.workspace = true
+
+[dependencies]
+leleka-core = { workspace = true }
