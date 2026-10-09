@@ -1,10 +1,16 @@
 [package]
 name = "leleka-core"
+description = "Library behind leleka, a fastlane alternative: uploading mobile app builds to App Store Connect and Google Play"
+keywords = ["app-store-connect", "google-play", "testflight", "fastlane", "mobile"]
+categories = ["api-bindings", "development-tools"]
 version.workspace = true
 edition.workspace = true
 rust-version.workspace = true
 repository.workspace = true
 license.workspace = true
 readme.workspace = true
+
+[lints.rust]
+missing_docs = "warn"
 
 [dependencies]

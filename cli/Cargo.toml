@@ -1,5 +1,8 @@
 [package]
 name = "leleka"
+description = "Command-line fastlane alternative: upload mobile app builds to App Store Connect and Google Play"
+keywords = ["app-store-connect", "google-play", "testflight", "fastlane", "mobile"]
+categories = ["command-line-utilities", "development-tools"]
 version.workspace = true
 edition.workspace = true
 rust-version.workspace = true
