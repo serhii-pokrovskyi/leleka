@@ -1,3 +1,7 @@
+mod args;
+
+use args::CliArgs;
+
 fn main() {
-    println!("in active development");
+    CliArgs::parse_args();
 }
