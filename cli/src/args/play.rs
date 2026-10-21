@@ -2,7 +2,6 @@ use clap::{Args, Subcommand};
 
 #[derive(Args, Debug)]
 pub struct PlayArgs {
-
     #[command(subcommand)]
     pub action: PlayAction,
 }

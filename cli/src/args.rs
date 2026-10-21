@@ -6,7 +6,6 @@ use play::PlayArgs;
 #[derive(Parser, Debug)]
 #[command(version, arg_required_else_help = true)]
 pub struct CliArgs {
-
     #[command(subcommand)]
     pub command: Store,
 }
